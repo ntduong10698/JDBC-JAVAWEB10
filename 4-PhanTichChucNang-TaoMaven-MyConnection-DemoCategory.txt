@@ -1,0 +1,57 @@
+Trên nhóm lớp đã đưa cho các bạn yêu cầu bài toán, để hoàn thiện bài toán cần rất nhiều thời gian nên chỉ đưa một số chức năng điển hình để hướng dẫn
+* Chức năng cần làm:
+	+ Quản lý giá bán của sản phẩm
+	+ Quản lý hình ảnh của sản phẩm
+	+ Quản lý miêu tả, thông số kỹ thuật của sản phẩm
+	+ Quản lý trạng thái còn hàng hết hàng của sản phẩm
+	+ Quản lý thời gian bảo hành sản phẩm
+	+ Quản lý danh mục sản phẩm
+	+ Quản lý sản phẩm bán chạy
+	+ Quản lý sản phẩm mới
+	+ Quản lý sản phẩm khuyến mãi
+	+ Quản lý nhận xét của khách hàng về sản phẩm
+	+ Quản lý hóa đơn mua hàng của khách hàng
+- Đi từ các chức năng phân tích các đối tượng và thuộc tính của đối tượng: tạo luôn (fk_Tên Bảng hiện tại(viết hoa)_tên cột(viết như biến))
+	* Sản phẩm (Product)
+		+ id
+		+ tên sản phẩm (name)
+		+ giá bán (price)
+		+ hình ảnh (image)
+		+ miêu tả sản phẩm (introduction)
+		+ thông số kỹ thuật (specification)
+		+ trạng thái hết hàng (sold out)
+		+ thời gian bảo hành ()
+		+ danh mục sản phẩm (category_id) => một sản phẩm thuộc 1 danh mục, 1 danh mục có nhiều sản phẩm
+		+ đã bán (bought)
+		+ ngày tạo (create_time)
+		+ khuyến mãi (promotion)
+	* Danh mục (Category)
+		+ id
+		+ tên danh mục (name)
+		+ đã xóa (deleted)
+	* Bình luận (Comment)
+		+ id
+		+ bình luận (comment)
+		+ người bình luận (name)
+		+ sản phẩm (product_id)
+		+ hiện comment (active)
+		+ giờ comment (time)
+		+ deleted
+	* Hóa đơn
+		+ id
+		+ người mua hàng (name)
+		+ số điện thoại (phone_number)
+		+ email (email)
+		+ address (address)
+		+ thời gian tạo (create_time)
+		+ trạng thái (status)
+		+ deleted
+	* Hóa đơn có sản phẩm
+		+ id hóa đơn
+		+ id sản phẩm
+		+ số lượng (quantity)
+		+ giá sản phẩm (price)
+=> Sơ đồ model xem liên kết các bảng, tạo model
+
+	
+
