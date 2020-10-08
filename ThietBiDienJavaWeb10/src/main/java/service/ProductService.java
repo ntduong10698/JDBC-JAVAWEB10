@@ -1,12 +1,11 @@
-package dao;
+package service;
 
-import model.Category;
 import model.Product;
 
 import java.sql.SQLException;
 import java.util.List;
 
-public interface ProductDao extends BaseDao<Product> {
+public interface ProductService  extends BaseService<Product> {
 
     List<Product> sortBy(String field, boolean isASC) throws SQLException;
 

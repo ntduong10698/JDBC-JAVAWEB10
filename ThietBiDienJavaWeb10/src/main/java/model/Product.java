@@ -23,7 +23,7 @@ public class Product {
 
     private int guarantee;
 
-    private int categoryId;
+    private int categoryId; //category_id => categoryId
 
     private int bought;
 
