@@ -1,0 +1,33 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<!--chứa các cấu hình của project java web-->
+<!--dưới dạng xml là các thẻ (đã được định nghĩa sẵn) có cấu trúc thẻ đóng thẻ mở -->
+<!--và trong các thẻ này chứa các hình project của mình-->
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+<!--  trong web.xml sẽ cấu hình tương ứng với url nào sẽ được Servlet nào xử lý-->
+<!--  <servlet>-->
+<!--    <servlet-name>TrangChu</servlet-name>-->
+<!--    <servlet-class>com.bksoftwarevn.itstudent.controller.TrangChu</servlet-class>-->
+<!--  </servlet>-->
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>TrangChu</servlet-name>-->
+<!--    <url-pattern>/trang-chu</url-pattern>-->
+<!--  </servlet-mapping>-->
+
+<!--  <servlet>-->
+<!--    <servlet-name>GioiThieu</servlet-name>-->
+<!--    <servlet-class>com.bksoftwarevn.itstudent.controller.GioiThieu</servlet-class>-->
+<!--  </servlet>-->
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>GioiThieu</servlet-name>-->
+<!--    <url-pattern>/gioi-thieu</url-pattern>-->
+<!--  </servlet-mapping>-->
+
+
+  <welcome-file-list>
+    <welcome-file>WEB-INF\img.jpg</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
