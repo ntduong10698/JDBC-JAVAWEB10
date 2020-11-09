@@ -1,9 +1,0 @@
-+ Buổi trước connect db thành công
-+ Viết hàm prepare, prepareUpdate, close
-+ Demo với tìm kiếm và insert category
-+ Để thao tác với database thì chúng ta tạo thêm 1 tầng nữa
-tầng dao có 2 pack là dao và daoImpl
-+ mỗi đối tượng sẽ có 2 class CategoryDao, CategoryDaoImpl
-+ dao chứa các interface quy định các hàm thao tác với database tương ứng với đối tượng
-+ dao impl là định nghĩa các hàm đấy
-+ định nghĩa BaseDao

@@ -14,6 +14,7 @@ import java.io.IOException;
  * Cung cấp 2 cơ chế điều kiển:
  *      + Gửi request của client sang một tài nguyên khác trên server: forward
  *      + Bao gồm một tài nguyên khác trên server: include
+ * => Đều liên quan đến một tài nguyên khác trên server nên mình sẽ tạo ra một thằng TestRequestDispatcher
  * + Forward: sẽ điều hướng sang tài nguyền khác và chỉ hiện thị nội dụng của trang tài nguyên đó
  * + Include: sẽ bao gồm cả nội dụng trả về của trang hiện tại và trang được bao gồm
  */
